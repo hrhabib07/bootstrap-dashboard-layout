@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .navbar-custom {
+        background-color: #e2e2e2;
+        border-right: 1px solid #606060;
+        height: 100vh; /* Full height */
+        position: fixed; /* Fix the position */
+        top: 0;
+        left: 0;
+        width: 16.66667%;
+      }
+      .product-card {
+        border: 1px solid #606060;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Sidebar -->
+        <nav class="col-md-2 d-none h-full d-md-block navbar-custom">
+          <div class="position-sticky pt-3 text-center">
+            <p>Navbar</p>
+          </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="col-md-10 ml-sm-auto col-lg-10 px-md-4">
+          <div class="row mt-3">
+            <!-- Product Cards -->
+            <div class="col-md-3">
+              <div class="product-card">hello</div>
+            </div>
+            <div class="col-md-3">
+              <div class="product-card">hello</div>
+            </div>
+            <div class="col-md-3">
+              <div class="product-card">hello</div>
+            </div>
+            <div class="col-md-3">
+              <div class="product-card">hello</div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
